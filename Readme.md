@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Olesya Vegrenovskaya](https://up.htmlacademy.ru/htmlcss/36/user/461083).
-* Наставник: `Неизвестно`.
+* Наставник: [Ольга Ветер](https://htmlacademy.ru/profile/id73199).
 
 ---
 
