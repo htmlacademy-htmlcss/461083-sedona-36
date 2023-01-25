@@ -92,15 +92,18 @@
       <ul class="recommendations">
         <li class="recommendations-list">
           <h3 class="recomendations-title">Жильё</h3>
+          <img src="#" alt="Дом">
           <p>Рекомендуем пожить<br>в настоящем мотеле,<br>всё как в кино!</p>
         </li>
         <li class="recommendations-list">
           <h3 class="recomendations-title">Еда</h3>
+          <img src="#" alt="Бургер">
           <p>Всегда заказывайте<br>топовый фирменный бургер, <br>вы не разочаруетесь!</p>
         </li>
         <li class="recommendations-list">
-          <h3 class="recomendations-title"> <h3 class="recomendations-title">Сувениры</h3>
-          <p>Не только китайского, <br>но и настоящего местного <br>производства!</p>
+         <h3 class="recomendations-title">Сувениры</h3>
+         <img src="#" alt="Подарок">
+         <p>Не только китайского, <br>но и настоящего местного <br>производства!</p>
         </li>
       </ul>
       <section class="interest">
@@ -119,5 +122,46 @@
       </section>
 
     </main>
+    <footer class="page-footer">
+      <ul class="footer-social">
+        <li> <a class="social-item" href="#"> <span class="visually-hidden">В контакте</span> </a> </li>
+        <li> <a class="social-item" href="#"> <span class="visually-hidden">Телеграмм</span> </a> </li>
+        <li> <a class="social-item"href="#"> <span class="visually-hidden">Ютуб</span> </a></li>
+      </ul>
+      <a class="footer-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+      <a class="footer-htmlacademy-logo" href="https://htmlacademy.ru/">
+        <img src="#" alt="Логотип">
+      </a>
+    </footer>
+    <section class="popup-modal">
+      <h2 class="popup-titte"> Поиск гостиницы в Седоне </h2>
+      <button class="popup-close" type="button"> <span class="visually-hidden">Закрыть</span></button>
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <p class="arrival-date">
+          <label for="popup-date"> Дата заезда:</label>
+          <input id="popup-date" type="date" value="27.04.2020">
+          <p>Мы не можем отправить вас в прошлое.</p>
+        </p>
+        <p class="departure-date">
+          <label for="popup-date"> Дата выезда:</label>
+          <input id="popup-date" type="date" value="27.04.2020">
+          <p>На эти даты есть свободные номера. Пока есть.</p>
+        </p>
+        <p class="adults">
+          <label for="popup-adults"> Взрослые:</label>
+          <input id="popup-adults" type="number" value="2">
+        </p>
+        <p class="children">
+          <label for="popup-children"> Дети:</label>
+          <spum class="visually-hidden"> Информация</spum>
+          <input id="popup-children" type="number" value="2">
+        </p>
+        <p class="children-info">Укажите количество детей,<br> которые будут с вами, возраст<br> которых от 6 до 18 лет. Дети<br> до 6 лет размещаются<br> бесплатно.</p>
+        <button class="popup-search" type="button"> Найти </button>
+      </form>
+
+    </section>
+
+
   </body>
 </html>
