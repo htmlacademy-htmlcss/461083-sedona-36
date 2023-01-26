@@ -58,6 +58,57 @@
         </li>
       </ul>
     </header>
+    <section сlass="hotels-catalog">
+      <h2 class="visually-hidden">Cсписок гостиниц</h2>
+      <form class="hotels-filter" action="https://echo.htmlacademy.ru/" method="get">
+      <fieldset class="hotels-filter-group">
+        <legend class="hotels-filter-title">Инфраструктура:</legend>
+        <ul class="hotels-filter-list">
+          <li class="hotels-filter-item">
+            <label class="control">
+              <input class="control-input" type="checkbox" name="swimming-pool">
+              Бассейн
+            </label>
+          </li>
+          <li class="hotels-filter-item">
+            <label class="control">
+              <input class="control-input" type="checkbox" name="parking">
+              Парковка
+            </label>
+          </li>
+          <li class="hotels-filter-item">
+            <label class="control">
+              <input class="control-input" type="checkbox" name="Wi-Fi">
+              Wi-Fi
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend class="hotels-filter-title">Тип жилья:</legend>
+        <ul class="hotels-filter-list">
+          <li class="hotels-filter-item">
+            <label class="control">
+              <input class="control-input" type="radio" name="product-group" value="hotel">
+              Гостиница
+            </label>
+          </li>
+          <li class="hotels-filter-item">
+            <label class="control">
+              <input class="control-input" type="radio" name="product-group" value="motel">
+              Мотель
+            </label>
+          </li>
+          <li class="hotels-filter-item">
+            <label class="control">
+              <input class="control-input" type="radio" name="product-group" value="apartments">
+              Апартаменты
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+      </form>
+    </section>
   </main>
   <section class="subscribe">
     <h2 class="visually-hidden"> Подписка</h2>
