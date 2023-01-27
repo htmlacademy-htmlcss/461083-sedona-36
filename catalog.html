@@ -59,7 +59,7 @@
       </ul>
     </header>
     <section сlass="hotels-catalog">
-      <h2 class="visually-hidden">Cсписок гостиниц</h2>
+      <h2 class="visually-hidden">Cписок гостиниц</h2>
       <form class="hotels-filter" action="https://echo.htmlacademy.ru/" method="get">
       <fieldset class="hotels-filter-group">
         <legend class="hotels-filter-title">Инфраструктура:</legend>
@@ -107,6 +107,18 @@
           </li>
         </ul>
       </fieldset>
+      <section class="filter-range">
+        <h3 class="filter-range-title">Стоимость,₽:</h3>
+        <label class="min-price">от<input type="text" name="min-price" value="0"></label>
+        <label class="max-price">до <input type="text" name="max-price" value="9000"></label>
+      </section>
+      <div class="range-controls">
+        <div class="scale">
+          <div class="bar"></div>
+        </div>
+        <div class="range-toggle range-toggle-min"></div>
+        <div class="range-toggle range-toggle-max"></div>
+      </div>
       <button class="button" type="submit">Применить</button>
       <a class="hotels-reset" href="catalog.html">Сбросить</a>
       </form>
