@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="ru">
+
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
   </head>
+
   <body>
     <header class="page-header">
-      <nav class="navigation">
         <a class="navigation-logo" href="index.html">
-          <img src="#" alt="Логотип">
+          <img src="img/logo.svg" width="138" height="64" alt="Логотип">
         </a>
+        <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
             <a class="navigation-link" href="index.html">Главная</a>
@@ -21,28 +23,12 @@
             <a class="navigation-link" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
-        <ul class="navigation-list">
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">
-              <span class="visually-hidden">
-                Поиск
-              </span>
-            </a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">
-              <span class="visually-hidden">
-                Лайк
-              </span>
-            </a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">
-                ХОЧУ СЮДА!
-            </a>
-          </li>
-        </ul>
       </nav>
+       <button type="button" class="user-search"> Поиск </button>
+       <a class="user-favorites">
+        <span class="visually-hidden"> Избранное </span>
+       </a>
+       <button type="submit" class="user-button"> хочу сюда!</button>
     </header>
     <main class="main-index">
       <h1 class="visually-hidden">Sedona</h1>
@@ -57,37 +43,37 @@
         </p>
       </section>
       <section class="reasons">
-          <h2 class="visually hidden">Причины</h2>
-          <ul class="reasons-list">
-            <li class="reasons-item">
-              <h3 class="reasons-title">Настоящий городок</h3>
-              <p class="reasons-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-            </li>
-            <li class="reasons-item">
-              <h3 class="reasons-title">Небольшая площадь</h3>
-              <p class="reasons-description">Все достопримечательности находятся очень близко</p>
-            </li>
-            <li class="reasons-item">
-              <h3 class="reasons-title">Красивая дорога</h3>
-              <p class="reasons-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-            </li>
-            <li class="reasons-item">
-              <h3 class="reasons-title">Мало туристов</h3>
-              <p class="reasons-description">Большинство едет в Гранд Каньон и толпится там!</p>
-            </li>
-            <li class="reasons-item">
-              <h3 class="reasons-title">Там есть мост дьявола</h3>
-              <p class="reasons-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-            </li>
-          </ul>
-          <img src="#" alt="Седона">
-          <img src="#" alt="Мост дьявола">
-          <p class="reasons-call">
-            Приезжайте в Седону отдохнуть <br> в комфорте и уюте!
-          </p>
-          <p class="reasons-call-text">
-            Опытный персонал и качественное обслуживание!
-          </p>
+        <h2 class="visually hidden">Причины</h2>
+        <ul class="reasons-list">
+          <li class="reasons-item">
+            <h3 class="reasons-title">Настоящий городок</h3>
+            <p class="reasons-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+          </li>
+          <li class="reasons-item">
+            <h3 class="reasons-title">Небольшая площадь</h3>
+            <p class="reasons-description">Все достопримечательности находятся очень близко</p>
+          </li>
+          <li class="reasons-item">
+            <h3 class="reasons-title">Красивая дорога</h3>
+            <p class="reasons-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </li>
+          <li class="reasons-item">
+            <h3 class="reasons-title">Мало туристов</h3>
+            <p class="reasons-description">Большинство едет в Гранд Каньон и толпится там!</p>
+          </li>
+          <li class="reasons-item">
+            <h3 class="reasons-title">Там есть мост дьявола</h3>
+            <p class="reasons-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+          </li>
+        </ul>
+        <img src="#" alt="Седона">
+        <img src="#" alt="Мост дьявола">
+        <p class="reasons-call">
+          Приезжайте в Седону отдохнуть <br> в комфорте и уюте!
+        </p>
+        <p class="reasons-call-text">
+          Опытный персонал и качественное обслуживание!
+        </p>
       </section>
       <ul class="recommendations">
         <li class="recommendations-list">
@@ -101,22 +87,23 @@
           <p>Всегда заказывайте<br>топовый фирменный бургер, <br>вы не разочаруетесь!</p>
         </li>
         <li class="recommendations-list">
-         <h3 class="recomendations-title">Сувениры</h3>
-         <img src="#" alt="Подарок">
-         <p>Не только китайского, <br>но и настоящего местного <br>производства!</p>
+          <h3 class="recomendations-title">Сувениры</h3>
+          <img src="#" alt="Подарок">
+          <p>Не только китайского, <br>но и настоящего местного <br>производства!</p>
         </li>
       </ul>
       <section class="interest">
-         <h2 class="interest-title">Заинтересовались?</h2>
-         <p class="interest-text">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-         <button class="interest-button">Поиск Гостиницы в Седоне</button>
+        <h2 class="interest-title">Заинтересовались?</h2>
+        <p class="interest-text">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в
+          Седоне</p>
+        <button class="interest-button">Поиск Гостиницы в Седоне</button>
       </section>
       <section class="subscribe">
         <h2 class="visually-hidden"> Подписка</h2>
         <p>Заинтересовались?</p>
         <p>Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-          <input type="email" name="subscribe-email" placeholder="Ваш e-mail" >
+          <input type="email" name="subscribe-email" placeholder="Ваш e-mail">
           <button class="button" type="submit">Подписаться</button>
         </form>
       </section>
@@ -156,9 +143,11 @@
           <b class="visually-hidden"> Информация</b>
           <input id="popup-children" type="number" value="2">
         </p>
-        <p class="children-info">Укажите количество детей,<br> которые будут с вами, возраст<br> которых от 6 до 18 лет. Дети<br> до 6 лет размещаются<br> бесплатно.</p>
+        <p class="children-info">Укажите количество детей,<br> которые будут с вами, возраст<br> которых от 6 до 18 лет.
+          Дети<br> до 6 лет размещаются<br> бесплатно.</p>
         <button class="popup-search" type="button"> Найти </button>
       </form>
     </section>
   </body>
+
 </html>
